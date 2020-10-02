@@ -17,7 +17,7 @@ CREATE TABLE LoginInfo(
 UsersInfo Table to store userId and note in an Encrypted Manner with userId working as Common Connection between both Tables
 
 
-CREATE TABLE UsersInfo(
+CREATE TABLE NotesInfo(
 	  userId PRIMARY KEY,
     note VARCHAR(100) UNIQUE NOT NULL
 );
